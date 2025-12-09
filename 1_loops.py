@@ -50,3 +50,9 @@ tote = 0
 for new_number in new_numbers:
     tote += new_number
 print(tote)
+
+list = [5, 7, 8, 9, 10]
+sum = 0
+for number in list:
+    sum += number
+print(sum)
