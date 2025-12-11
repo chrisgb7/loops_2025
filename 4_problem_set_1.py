@@ -29,8 +29,19 @@ print("The sum of numbers from 1 to", n, "is", total)
 # Ask the user for a number **n**, then calculate the **factorial** of that number.
 
 # *(Example: factorial of 5 is 120)
+#5! = 5*4*3*2*1 = 120
+#n! = n*(n-1)
+#for i in range(10):
+   # print(1)
+def factorial(n): 
 
+    factorial=1
 
+    for i in range(n):
+        factorial*=i+1
+
+    return factorial
+print(factorial(5))
 # ### **Problem 4: Count Vowels**
 
 # Ask the user for a string. Count and print how many **vowels (a, e, i, o, u)** are in the string.
