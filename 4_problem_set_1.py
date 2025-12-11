@@ -27,7 +27,13 @@ print("The sum of numbers from 1 to", n, "is", total)
 # ### **Problem 3: Factorial Calculator
 
 # Ask the user for a number **n**, then calculate the **factorial** of that number.
-
+n = int(input("enter num:" ))
+list2 + list(range(1, n))
+for i in list2:
+    if i % 2 == 0:
+        print("even", i)
+    else:
+        print("odd", i)
 # *(Example: factorial of 5 is 120)
 #5! = 5*4*3*2*1 = 120
 #n! = n*(n-1)
